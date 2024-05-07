@@ -1,15 +1,20 @@
-def jumlah(a,b):
-    hasil_jumlah = a + b
-    return hasil_jumlah
+def tambah(a,b):
+    jumlah = a + b
+    return jumlah
 
-def kurang(c,d):
-    hasil_kurang = c - d
-    return hasil_kurang
+hasil = tambah(10,20)
+print(hasil)
 
-def mod(e,f):
-    hasil_mod = e % f
-    return hasil_mod
+def kurang(a,b):
+    jumlah = a - b
+    return jumlah
 
-jumlah(100,200)
-kurang(150,50)
-mod(10,2)
+hasil = kurang(60,20)
+print(hasil)
+
+def mod(a,b):
+    jumlah = a % b
+    return jumlah
+
+hasil = mod(80,4)
+print(hasil)
